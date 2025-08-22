@@ -1,6 +1,52 @@
-nav-list {      
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    padding: 0;
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 40px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+/* Lista centrada */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.nav-links li a:hover {
+  opacity: 0.6;
+}
+
+/* Iconos a la derecha */
+.icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icons img {
+  width: 18px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 18px;
 }
