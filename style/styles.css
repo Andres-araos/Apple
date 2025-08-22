@@ -12,7 +12,6 @@ nav {
   border-bottom: 1px solid #eaeaea;
 }
 
-/* Lista centrada */
 .nav-links {
   display: flex;
   gap: 30px;
@@ -35,7 +34,6 @@ nav {
   opacity: 0.6;
 }
 
-/* Iconos a la derecha */
 .icons {
   display: flex;
   gap: 20px;
@@ -50,3 +48,4 @@ nav {
 .logo img {
   width: 18px;
 }
+
