@@ -12,6 +12,47 @@ nav {
   border-bottom: 1px solid #eaeaea;
 }
 
+.family {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.family h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.products1 {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.product1 {
+  max-width: 280px;
+}
+
+.product1 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product1h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product1 p {
+  font-size: 1rem;
+  color: #6e6e73;
+  line-height: 1.4;
+}
+
+
 .nav-links {
   display: flex;
   gap: 30px;
@@ -49,3 +90,89 @@ nav {
   width: 18px;
 }
 
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #f5f5f7;
+  max-width: 700px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 8px;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-dark {
+  background: black;
+  color: white;
+}
+
+.btn-dark:hover {
+  background: #333;
+}
+
+.btn-light {
+  background: #f5f5f7;
+  color: black;
+}
+
+.btn-light:hover {
+  background: #ddd;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+}
+
+.product.reverse {
+  flex-direction: row-reverse;
+}
+
+.product .text {
+  max-width: 450px;
+}
+
+.product h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.product p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.product .image img {
+  width: 400px;
+  max-width: 100%;
+}
