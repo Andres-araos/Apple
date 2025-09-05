@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apple Bag</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li>Store</li>
+        <li>Mac</li>
+        <li>iPad</li>
+        <li>iPhone</li>
+        <li>Watch</li>
+        <li>Vision</li>
+        <li>AirPods</li>
+        <li>TV & Home</li>
+        <li>Entertainment</li>
+        <li>Accessories</li>
+        <li>Support</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Your bag total is $899.</h1>
+    <p class="subtext">Free delivery and free returns.</p>
+    <div class="buttons">
+      <button class="apple-pay">Check Out with Pay</button>
+      <button class="checkout">Check Out</button>
+    </div>
+
+    <section class="item">
+      <img src="/assets/Images/16.jpeg" alt="iPhone 16 Plus" class="product-img">
+      <div class="details">
+        <h2>iPhone 16 Plus 256GB Ultramarine</h2>
+        <p><strong>Carrier:</strong> Connect with any carrier after you get your new iPhone</p>
+        <p class="delivery">📦 In stock and ready to ship.<br> 🛍 Pick up at an Apple Store near you.</p>
+      </div>
+      <div class="price">
+        <span>$899</span>
+        <a href="#">Remove</a>
+      </div>
+    </section>
+
+    <hr>
+    <div class="subtotal">
+      <p>Subtotal</p>
+      <p>$899</p>
+    </div>
+  </main>
+</body>
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #1d1d1f;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  background: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.subtext {
+  font-size: 0.95rem;
+  color: #6e6e73;
+  margin-bottom: 1.5rem;
+}
+
+/* ---------- BUTTONS ---------- */
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 0.9rem 1.8rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.apple-pay {
+  background: #000;
+  color: #fff;
+}
+
+.checkout {
+  background: #0071e3;
+  color: #fff;
+}
+
+/* ---------- PRODUCT ITEM ---------- */
+.item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-img {
+  width: 140px;
+  border-radius: 8px;
+}
+
+.details {
+  flex: 1;
+}
+
+.details h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.details p {
+  font-size: 0.9rem;
+  color: #1d1d1f;
+}
+
+.delivery {
+  font-size: 0.85rem;
+  color: #6e6e73;
+}
+
+.price {
+  text-align: right;
+}
+
+.price span {
+  display: block;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.price a {
+  font-size: 0.9rem;
+  color: #0071e3;
+  text-decoration: none;
+}
+
+/* ---------- SUBTOTAL ---------- */
+.subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1d1d1f;
+}
+
+</style>
+</html>
